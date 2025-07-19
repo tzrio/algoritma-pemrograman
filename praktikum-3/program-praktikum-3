@@ -1,0 +1,39 @@
+#include <iostream> 
+using namespace std; 
+ 
+void jumlahSuku(int a, int b, int n){ 
+    int x, y, z; 
+    z = 0; 
+    cout << "Jumlah Suku ke-" << n << " adalah "; 
+    for(int i = 1; i <= n; i++){ 
+        x = a + (i - 1)*b; 
+        z = z + x; 
+        cout << x; 
+        if(i < n) cout << " + "; 
+    } 
+    cout << " = " << z; 
+} 
+ 
+int cetak(int a, int b, int n){return a + (n-1)*b;} 
+ 
+int main (){ 
+    int a, b, n, suku; 
+ 
+    cout << "ARITMATIKA" << endl; 
+    cout << "==================" << endl; 
+    cout << "Masukan suku pertama: "; 
+    cin >> a; 
+    cout << "Masukan beda (selisih): "; 
+    cin >> b; 
+    cout << "Masukan jumlah suku bilangan: "; 
+    cin >> n; 
+    cout << endl; 
+ 
+    jumlahSuku(a, b, n); 
+ 
+    cout << endl << "Suku ke-" << n << " adalah "; 
+    suku = cetak(a,b,n); 
+    cout << suku; 
+ 
+    return 0; 
+}
