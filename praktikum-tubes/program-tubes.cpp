@@ -506,7 +506,7 @@ void prosesRegistrasi(User daftarUser[], int& userCount) {
     enterToContinue();
 }
 void bacaDataUser(User users[], int& userCount) {
-    ifstream file("reservator.csv");
+    ifstream file("accounts.csv");
     string line, username, password, role, phoneNumber;
     userCount = 0;
     if (!file.is_open()) return;
@@ -522,9 +522,9 @@ void bacaDataUser(User users[], int& userCount) {
     file.close();
 }
 void tulisDataUser(const User daftarUser[], int userCount) {
-    ofstream file("reservator.csv");
+    ofstream file("accounts.csv");
     if (!file.is_open()) {
-        cout << "Error: Tidak bisa membuka file reservator.csv untuk menulis.\n";
+        cout << "Error: Tidak bisa membuka file accounts.csv untuk menulis.\n";
         return;
     }
     for (int i = 0; i < userCount; ++i) {
