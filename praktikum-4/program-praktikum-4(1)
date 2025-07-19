@@ -1,9 +1,9 @@
-#include <iostream> 
+include <iostream> 
 using namespace std;
 
 int Data[5]; 
 
-// Fungsi untuk menukar dua nilai 
+// Fungsi untuk menukar dua nilai
 void Tukar(int *a, int *b)  
 { 
 int temp = *a; 
@@ -15,7 +15,7 @@ int temp = *a;
 void SelectionSortAscending()  
 { 
 int i, j, k; 
-for (i = 0; i < 5; i++) 
+for (i = 0; i < 5; i++)
     { 
         k = i; 
         for (j = i + 1; j < 5; j++)  
