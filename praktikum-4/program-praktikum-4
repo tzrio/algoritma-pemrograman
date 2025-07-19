@@ -1,0 +1,80 @@
+#include <iostream> 
+using namespace std;
+
+int Data[5]; 
+
+// Fungsi untuk menukar dua nilai 
+void Tukar(int *a, int *b)  
+{ 
+int temp = *a; 
+*a = *b; 
+*b = temp; 
+} 
+
+// Fungsi Selection Sort (ascending) 
+void SelectionSortAscending()  
+{ 
+int i, j, k; 
+for (i = 0; i < 5; i++) 
+    { 
+        k = i; 
+        for (j = i + 1; j < 5; j++)  
+        { 
+            if (Data[k] > Data[j])  
+            { 
+                k = j; 
+            } 
+        } 
+        Tukar(&Data[i], &Data[k]); 
+    } 
+} 
+ 
+void SelectionSortDescending()  
+{ 
+    int i, j, k; 
+    for (i = 0; i < 5; i++)  
+    { 
+        k = i; 
+        for (j = i + 1; j < 5; j++)  
+        { 
+            if (Data[k] < Data[j])  
+            { 
+                k = j; 
+            } 
+        } 
+        Tukar(&Data[i], &Data[k]); 
+    } 
+} 
+  
+// Fungsi untuk mencetak isi array 
+void CetakData()  
+{ 
+    for (int i = 0; i < 5; i++)  
+    { 
+        cout << Data[i] << " "; 
+    } 
+    cout << endl; 
+} 
+  
+int main() { 
+    cout << "Masukan 5 angka untuk diurutkan dari yang terkecil (selection sort)" << endl; 
+    for(int i = 0; i < 5; i++) 
+    { 
+        cout << "Masukan angka ke-" << i + 1<< ": "; 
+        cin >> Data[i]; 
+    } 
+    cout << "Data sebelum diurutkan:\n"; 
+    CetakData(); 
+  
+    SelectionSortAscending(); 
+  
+    cout << "Data setelah diurutkan (ascending):\n"; 
+    CetakData(); 
+ 
+    SelectionSortDescending(); 
+  
+    cout << "Data setelah diurutkan (descending):\n"; 
+    CetakData(); 
+  
+    return 0; 
+} 
