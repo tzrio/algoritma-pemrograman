@@ -1,0 +1,34 @@
+#include <iostream> 
+using namespace std; 
+ 
+int main() { 
+    int n, hasili, hasilj; 
+    hasili = 0; 
+    hasilj = 0; 
+ 
+    cout << "PENAMPIL BILANGAN GENAP DAN GANJIL" << endl; 
+    cout << "==================================" << endl; 
+    cout << "Masukan nilai bilangan bulat positif: "; 
+    cin >> n; 
+     
+    if(s > 0){ 
+ 
+        cout << endl <<"Bilangan Ganjil: "; 
+        for (int i = 1; i <= n; i+=2) { 
+            cout << i << " "; 
+            hasili = hasili + i; 
+        } 
+ 
+        cout << endl << "Bilangan Genap: ";  
+        for (int j = 2; j <= n; j+=2) { 
+            cout << j << " "; 
+            hasilj = hasilj + j; 
+        } 
+        cout << endl << "Hasil penjumlahan dari bilangan ganjil: " << hasili; 
+        cout << endl << "Hasil penjumlahan dari bilangan genap: " << hasilj; 
+ 
+    } else{ 
+        cout << "Mohon isi dengan bilangan bulat positif" << endl; 
+    } 
+     
+}
