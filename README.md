@@ -21,9 +21,9 @@ Repository ini berisi kumpulan praktikum mata kuliah Praktikum Teknik Komputer D
 
 **Deskripsi:** Selection Sort dan Insertion Sort
 
-### 📁 [Praktikum Tugas Besar - ](./praktikum-tubes/)
+### 📁 [Praktikum Tugas Besar - Reservasi Tiket Wisata dan Penyewaan Tenda](./praktikum-tubes/)
 
-**Deskripsi:** 
+**Deskripsi:** Program ini adalah reservasi tiket wisata dan penyewaan tenda yang dibuat menggunakan bahasa pemrograman C++. Program ini memungkinkan pengguna untuk melakukan operasi CRUD (Create, Read, Update, Delete) terhadap data reservasi dan admin.
 
 ---
 **© 2025 - Praktikum Teknik Komputer Dasar (Algoritma Pemrograman), Telkom University Surabaya**  
