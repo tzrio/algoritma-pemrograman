@@ -25,6 +25,23 @@ Repository ini berisi kumpulan praktikum mata kuliah Praktikum Teknik Komputer D
 
 **Deskripsi:** Program ini adalah reservasi tiket wisata dan penyewaan tenda yang dibuat menggunakan bahasa pemrograman C++. Program ini memungkinkan pengguna untuk melakukan operasi CRUD (Create, Read, Update, Delete) terhadap data reservasi dan admin.
 
+## Quick Start Guide
+```bash
+# Clone repository
+git clone https://github.com/tzrio/algoritma-pemrograman.git
+
+# Navigate to specific project
+cd algoritma-pemrograman/praktikum-[x]
+
+# Compile and run (Windows)
+g++ program-praktikum-[x].cpp -o program-praktikum-[x].exe
+./program-praktikum-[x].exe
+
+# Compile and run (Linux/Mac)
+g++ program-praktikum-[x].cpp -o program-praktikum-[x]
+./program-praktikum-[x]
+```
+
 ---
 **© 2025 - Praktikum Teknik Komputer Dasar (Algoritma Pemrograman), Telkom University Surabaya**  
 *Repository ini dibuat untuk keperluan akademik mata kuliah Praktikum Teknik Komputer Dasar (Algoritma Pemrograman)*
