@@ -1,0 +1,66 @@
+#include <iostream> 
+using namespace std; 
+  
+int Data[5]; 
+  
+void cetakData()  
+{ 
+    for (int i = 0; i < 5; i++)  
+    { 
+        cout << Data[i] << " "; 
+    } 
+    cout << endl; 
+} 
+ 
+void insertion_sort_ascending()  
+{ 
+    int temp, j; 
+    for (int i = 1; i < 5; i++)  
+    { 
+        temp =Data[i];     
+        j = i - 1; 
+        while (j >= 0 && Data[j] > temp)  
+        { 
+            Data[j + 1] = Data[j]; 
+            j--; 
+        } 
+        Data[j + 1] = temp;    
+    } 
+} 
+ 
+void insertion_sort_descending()  
+{ 
+    int temp, j; 
+    for (int i = 1; i < 5; i++)  
+    { 
+        temp =Data[i];         
+        j = i - 1; 
+        while (j >= 0 && Data[j] < temp)  
+        { 
+            Data[j + 1] = Data[j]; 
+            j--; 
+        } 
+        Data[j + 1] = temp;    
+    } 
+} 
+  
+int main()  
+{ 
+    cout << "Masukan 5 angka untuk diurutkan dari yang terkecil (insertion sort)" << endl; 
+    for(int i = 0; i < 5; i++) 
+    { 
+        cout << "Masukan angka ke-" << i + 1<< ": "; 
+        cin >> Data[i]; 
+    } 
+    cout << "Data sebelum diurutkan:\n"; 
+    cetakData(); 
+  
+    insertion_sort_ascending(); 
+  
+    cout << "Data setelah diurutkan (ascending):\n"; 
+    cetakData(); 
+    insertion_sort_descending(); 
+    cout << "Data setelah diurutkan (descending):\n"; 
+    cetakData(); 
+    return 0; 
+}
