@@ -5,3 +5,6 @@ Program ini adalah penghitung volume prisma segitiga siku-siku yang dibuat mengg
 
 ## Flowchart Program
 ![Flowchart Program](./flowchart-praktikum-1.png/)
+
+## Hasil Program
+![Hasil Program](./hasil-praktikum-1.png/)
