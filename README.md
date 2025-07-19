@@ -4,6 +4,19 @@
 ## Deskripsi
 Repository ini berisi kumpulan praktikum mata kuliah Praktikum Teknik Komputer Dasar (Algoritma Pemrograman) menggunakan bahasa pemrograman C++.
 
+## Informasi Kelas
+- **Mata Kuliah**: Algoritma Pemrograman
+- **Kelas**: CE-07-02
+- **Universitas**: Telkom University Surabaya
+- **Semester**: Genap 2024/2025
+
+## Asisten Praktikum
+- **Panji Aufa Ulinuha**
+- **Irdani Sukma Ardihantoko**
+- **Naufal Zakariya**
+- **Kelas**: CE-07-02
+- **Semester**: Genap 2024/2025
+
 ## Daftar Praktikum
 ### 📁 [Praktikum 1 - Menghitung Volume Prisma Segitiga Siku-Siku](./praktikum-1/)
 
