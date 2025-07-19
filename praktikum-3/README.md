@@ -4,4 +4,4 @@
 Program ini adalah aritmatika suku ke-n dan penjumlah suku ke-n yang dibuat menggunakan bahasa pemrograman C++.
 
 ## Hasil Program
-![Hasi; Program](./hasil-praktikum-3.png/)
+![Hasil Program](./hasil-praktikum-3.png/)
