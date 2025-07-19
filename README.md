@@ -1,8 +1,29 @@
-# Praktikum Teknik Komputer Dasar (Algoritkma Pemrograman)
+# Praktikum Teknik Komputer Dasar (Algoritma Pemrograman)
 **Universitas Telkom Surabaya**
 
 ## Deskripsi
 Repository ini berisi kumpulan praktikum mata kuliah Praktikum Teknik Komputer Dasar (Algoritma Pemrograman) menggunakan bahasa pemrograman C++.
+
+## Daftar Praktikum
+### 📁 [Praktikum 1 - Menghitung Volume Prisma Segitiga Siku-Siku](./praktikum-1/)
+
+**Deskripsi:** Penghitung Volume Prisma Segitiga Siku-Siku
+
+### 📁 [Praktikum 2 - Menampilkan Bilangan Genap Dan Ganjil Serta Menghitung Jumlahnya](./praktikum-2/)
+
+**Deskripsi:** Penampil Bilangan Genap Dan Ganjil Serta Menghitung Jumlahnya
+
+### 📁 [Praktikum 3 - Aritmatika Suku ke-n dan Menjumlah Suku ke-n](./praktikum-3/)
+
+**Deskripsi:** Aritmatika Suku ke-n dan Penjumlah Suku ke-n
+
+### 📁 [Praktikum 4 - Sorting Array](./praktikum-4/)
+
+**Deskripsi:** Selection Sort dan Insertion Sort
+
+### 📁 [Praktikum Tugas Besar - ](./praktikum-tubes/)
+
+**Deskripsi:** 
 
 ---
 **© 2025 - Praktikum Teknik Komputer Dasar (Algoritma Pemrograman), Telkom University Surabaya**  
